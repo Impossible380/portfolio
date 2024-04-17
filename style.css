@@ -56,6 +56,10 @@ a:hover {
   text-decoration: underline;
 }
 
+#return_home {
+  color: #ffffff;
+}
+
 footer {
   background-color: #007bff;
   color: #fff;
