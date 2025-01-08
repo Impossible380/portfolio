@@ -28,6 +28,7 @@ header {
 #header-navigation {
   display: flex;
   flex-direction: row;
+  gap: 100px;
 }
 
 #header-full-name {
