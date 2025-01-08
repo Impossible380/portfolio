@@ -28,17 +28,12 @@ header {
   margin-bottom: 10px;
 }
 
-header a {
-  color: #ffffff;
-  text-decoration: underline;
-}
-
 header p {
   font-size: 18px;
 }
 
 section {
-  background-color: #fff;
+  background-color: #ffffff;
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -58,8 +53,7 @@ li {
   margin-bottom: 10px;
 }
 
-main a {
-  color: #007bff;
+a {
   text-decoration: none;
 }
 
@@ -67,9 +61,17 @@ a:hover {
   text-decoration: underline;
 }
 
+header a {
+  color: #ffffff;
+}
+
+header a:hover {
+  color: yellow;
+}
+
 footer {
   background-color: #007bff;
-  color: #fff;
+  color: #ffffff;
   padding: 10px 20px;
   text-align: center;
 }
