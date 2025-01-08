@@ -23,9 +23,14 @@ header {
   text-align: center;
 }
 
-header h1 {
+#header-full-name {
   font-size: 36px;
   margin-bottom: 10px;
+}
+
+header a {
+  color: #ffffff;
+  text-decoration: underline;
 }
 
 header p {
@@ -59,11 +64,6 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
-}
-
-#return_home {
-  color: #ffffff;
   text-decoration: underline;
 }
 
